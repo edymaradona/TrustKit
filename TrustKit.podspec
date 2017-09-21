@@ -21,6 +21,7 @@ Pod::Spec.new do |s|
     'TrustKit/TSKPinningValidatorCallback.h',
     'TrustKit/TSKPinningValidatorResult.h',
     'TrustKit/TSKTrustDecision.h',
+    'TrustKit/Dependencies/RSSwizzle/RSSwizzle.h'
   ]
   s.frameworks = ['Foundation', 'Security']
   s.requires_arc = true
